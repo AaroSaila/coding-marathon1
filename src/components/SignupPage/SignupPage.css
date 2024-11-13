@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#sign-up {
+  margin-top: 20px;
+}
+
+input[value=""] {
+  border-color: none;
+  background-color: none;
+  color: none;
+}
+
+input[type="email"]:valid {
+  border-color: #49974cb8;
+  /* background-color: #49974cb8; */
+}
+
+input[type="email"]:invalid {
+  color: #b62b2bc2;
+  border-color: #b62b2bc2;
+}
