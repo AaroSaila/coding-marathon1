@@ -3,7 +3,7 @@ import React from 'react'
 function ShoppingCart() {
   return (
     <div>
-      ShoppingCart
+      ShoppingCartPage
     </div>
   )
 }
