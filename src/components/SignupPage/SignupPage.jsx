@@ -13,7 +13,6 @@ function SignupPage() {
     setEmail(e.target.value);
 
     const validity = e.target.validity.valid;
-    console.log(validity);
 
     if (validity === true && e.target.value !== "") {
       setEmailValidity("Your email address is correct.");

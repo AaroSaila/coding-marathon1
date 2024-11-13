@@ -16,10 +16,27 @@ label {
   margin-top: 20px;
 }
 
-input[value=""] {
-  border-color: none;
-  background-color: none;
-  color: none;
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  background-color: #ffffffc2;
+}
+
+button {
+  padding: 10px;
+  margin-left: -5px;
+  border-radius: 10px;
+  color: #ffffffff;
+  background-color: hsla(224 77.7% 35.1% / 0.76);
+}
+
+button:hover {
+  background-color: hsla(224 77.7% 25.1% / 0.76);
+  cursor: pointer;
 }
 
 input[type="email"]:valid {
