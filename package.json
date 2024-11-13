@@ -1,10 +1,12 @@
 {
-  "name": "react-lists-lab1",
+  "name": "coding-marathon1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -26,5 +28,6 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.11.0",
     "vite": "^5.4.10"
-  }
+  },
+  "homepage": "https://AaroSaila.github.io/coding-marathon1"
 }
